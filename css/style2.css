@@ -1,0 +1,38 @@
+#body {
+	position: absolute;
+	margin: center;
+	margin-left:100px;
+	margin-top: 300px;
+	background-color:#f4f4f4;
+	color:#555555;
+	font:normal 16px Arial, Helvetica, sans-serif;
+	
+}
+
+#smooth {
+	animation-name: rainbow;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+	0% {
+		color: black;
+		
+	}
+	25% {
+		color: red;
+		
+	}
+	50% {
+		color: blue;
+		
+	}
+	75% {
+		color: orange;
+	}
+	100%{
+		color: green;
+	}
+}
+
